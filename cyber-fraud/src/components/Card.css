@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    max-width: 100vw;
+}
+.card .card-left{
+    background-color: slateblue;
+     
+    width: 30vw;
+    height: 40vh;
+   
+}
+.card .card-right {
+    background-color: blue;
+    width: 70vw;
+    height: 40vh;
+
+}
