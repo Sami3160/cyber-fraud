@@ -5,6 +5,7 @@ import img3 from "../images/hack.jpg"
 import img4 from "../images/info.jpg"
 import img5 from "../images/privacy.png"
 import CardBanner from '../components/CardBanner';
+import Card from '../components/Card'
 function Home(){
     const data=[
         {   
@@ -30,12 +31,14 @@ function Home(){
         {   
             image:img5,
             title:"You know why privacy is needed..",
-            description:"The massive stores of personal data that social media platforms collect and retain are vulnerable to hacking, and data breaches, particularly if platforms fail to institute critical security measures and access then they can steal your personal pics...."
+            description:"The massive stores of personal data that social media platforms collect and like  data breaches then they can steal your personal pics...."
         },
     ]
     return(
         <div>
             <CardBanner data={data}/>
+    <Card/>
+
         </div>
     )
 }

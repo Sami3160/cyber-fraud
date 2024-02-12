@@ -1,19 +1,38 @@
 .card {
     display: flex;
+    margin: 10px;
+    border: 0;
     flex-direction: row;
-    background-color: red;
+    font-family: 'poppins';
     max-width: 100vw;
+    padding: 20px;
 }
+
+/* .card[id='1']{
+    background-image: url('../images/wall-8.jpeg');
+} */
 .card .card-left{
-    background-color: slateblue;
-     
+    /* background-image: url('../images/homeimg1.webp');    */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+    font-weight: 500;
+
     width: 30vw;
     height: 40vh;
    
 }
 .card .card-right {
-    background-color: blue;
+    background-color: #DCF2F1;
+    display: flex;
+    align-items: center;
     width: 70vw;
     height: 40vh;
+    border-top-right-radius: 10px;
+    font-weight: 500;
+    border-bottom-right-radius: 10px;
+    font-size: larger;
+    padding: 10px 30px;
 
 }

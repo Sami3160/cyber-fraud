@@ -5,5 +5,16 @@
     font-size: medium;
 }
 .navbar {
+    color: antiquewhite;
+   background-image: linear-gradient(35deg, #365486, #7FC7D9); 
+}   
+li,#home, li a {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+    height: 100%;
+    text-decoration: none;
+    color: white;
     
-}
+  }
+
