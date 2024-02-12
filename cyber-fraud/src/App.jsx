@@ -7,12 +7,14 @@ import './App.css'
 import { BrowserRouter , Route, Routes} from 'react-router-dom';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
+import Card from './components/Card';
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <BrowserRouter>
     <Navbar/>
+    <Card/>
       <Routes>
         <Route
         path='/'
